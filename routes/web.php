@@ -20,15 +20,15 @@ Route::get('home', function () {
 
 Route::get('entusiasta', function () {
 
-    return view('entusiasti');
+    return view('entusiasti', ['icon' => ["home", "about", "info", "post"]]);
 });
 
 Route::get('scettico', function () {
 
-    return view("scettici");
+    return view("scettici", ['icon' => ["home", "about", "info", "post"]]);
 });
 
 Route::get('incazzato', function () {
 
-    return view("incazzati");
+    return view("incazzati", ['icon' => ["home", "about", "info", "post"]]);
 });
