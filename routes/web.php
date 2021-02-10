@@ -13,7 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('home', function () {
 
     return view('home', ['icon' => ["home", "about", "info", "post"]]);
+});
+
+Route::get('entusiasta', function () {
+
+    return view('entusiasti');
+});
+
+Route::get('scettico', function () {
+
+    return view("scettici");
+});
+
+Route::get('incazzato', function () {
+
+    return view("incazzati");
 });

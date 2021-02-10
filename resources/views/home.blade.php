@@ -8,7 +8,7 @@ Nel layout includiamo un header e un footer -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Laravel-primi-passi</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -31,6 +31,42 @@ Nel layout includiamo un header e un footer -->
             color: black;
             background-color: lightblue;
           }
+          h1{
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 50px;
+          }
+          .end{
+            height: 50px;
+            background-color: blue;
+            text-align: center;
+            line-height: 50px;
+          }
+          h4{
+            color: white;
+          }
+          img{
+            height: 200px;
+            width: 200px
+          }
+          .section_1{
+            display: flex;
+            justify-content: space-around;
+          }
+          .section_1 a{
+            text-decoration: none;
+            font-size: 3rem;
+            color: red;
+            border: 1px solid red;
+            padding: 50px;
+            border-radius: 50px;
+            margin-bottom: 100px;
+          }
+          .section_2{
+            text-align: center;
+            height: 200px;
+          }
+
         </style>
     </head>
     <body>
@@ -41,6 +77,24 @@ Nel layout includiamo un header e un footer -->
             <a href="#">{{$key}}</a>
           @endforeach
         </nav>
+        <hr>
       </header>
+      <main>
+        <h1>.....e alla fine arrivò Mariuccio.....</h1>
+        <div class="section_1">
+          <a href="entusiasta">entusiasti</a>
+          <a href="scettico">finti scettisci</a>
+          <a href="incazzato">e soliti incazzati</a>
+        </div>
+        <div class="section_2">
+          <h2>prima di clikkare sui link vediamo se li indovini tutti....</h2>
+        </div>
+
+      </main>
+      <footer>
+        <div class="end">
+          <h4>Copyright pincopallo</h4>
+        </div>
+      </footer>
     </body>
     </html>
