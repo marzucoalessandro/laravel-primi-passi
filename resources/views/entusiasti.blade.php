@@ -1,4 +1,5 @@
-@include("layout.head")
+@extends("layout.app")
+@section('content')
 <main>
   <h1>eccoci agli entusiasti!!!</h1>
   <ol>
@@ -7,4 +8,4 @@
     <li>Berlusca</li>
   </ol>
 </main>
-@include("layout.footer")
+@endsection

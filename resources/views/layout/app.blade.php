@@ -1,7 +1,3 @@
-<!-- Le istruzioni: -->
-<!-- Creiamo un layout base da estendere in due pagine del nostro sito.
-Nel layout includiamo un header e un footer -->
-
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -22,20 +18,12 @@ Nel layout includiamo un header e un footer -->
         <nav>
           <a href="/">Home</a>
           <a href="entusiasta">Entusiasti</a>
-          <a href="'scettico'">Scettici</a>
+          <a href="scettico">Scettici</a>
           <a href="incazzato">Incazzati</a>
         </nav>
         <hr>
       </header>
-      <main>
-        <h1>.....e alla fine arrivò Mariuccio.....</h1>
-
-
-        <div class="section_2">
-          <h2>prima di clikkare sui link vediamo se li indovini tutti....</h2>
-        </div>
-
-      </main>
+      @yield('content')
       <footer>
         <div class="end">
           <h4>Copyright pincopallo</h4>

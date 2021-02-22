@@ -1,7 +1,8 @@
-@include("layout.head")
+@extends('layout.app')
+@section('content')
 <main>
   <ol>
-    <li>IL rottweiler nazionale....Giorgia!!!</li>
+    <li>....Giorgia</li>
   </ol>
 </main>
-@include("layout.footer")
+@endsection

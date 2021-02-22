@@ -1,4 +1,5 @@
-@include("layout.head")
+@extends('layout.app')
+@section('content')
 <main>
   <h1>Finti scettici.....</h1>
   <ol>
@@ -6,4 +7,4 @@
     <li>Grilli vari....</li>
   </ol>
 </main>
-@include("layout.footer")
+@endsection
